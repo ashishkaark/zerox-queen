@@ -1,0 +1,82 @@
+.margin_register {
+    box-shadow: 2px 2px 15px #a8bba8;
+    margin: 7.8rem 8rem 3rem 8rem;
+    padding: 30px 0px;
+}
+
+.margin_register div h1 {
+    color: #D9341A;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.left_order {
+    text-align: left;
+    padding: 0px;
+}
+
+.right_order {
+    text-align: right;
+}
+
+.header .far {
+    font-size: 10rem;
+    color: #D9341A;
+}
+
+.go_back:hover {
+    color: #D9341A;
+    border: 3px solid #D9341A;
+    background-color: white;
+    padding: 10px 5rem;
+    font-weight: 700;
+}
+
+.go_back {
+    background-color: #D9341A;
+    border: 3px solid #D9341A;
+    font-weight: 700;
+    padding: 10px 5rem;
+    font-size: 15px;
+    color: white;
+}
+
+p {
+    color: black;
+    font-weight: 600;
+}
+
+.color_para {
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.back_left {
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .margin_register {
+        margin: 1rem 0rem;
+        ;
+    }
+    .margin_register div h1 {
+        color: #D9341A;
+        /* font-family: 'Dancing Script', cursive; */
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .margin_register {
+        margin: 1rem 0rem;
+        ;
+    }
+    .margin_register div h1 {
+        color: #D9341A;
+        /* font-family: 'Dancing Script', cursive; */
+        font-size: 2rem;
+    }
+}

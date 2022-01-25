@@ -1,0 +1,377 @@
+.my_account{
+    margin-top: 7.5rem;
+}
+.my_account h3{
+    color: #d9341a;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #d9341a;
+}
+.my_account .nav a{
+    background: white;
+    color: #d9341a;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 20px;
+    
+}
+.my-detail{
+    /* margin-left: 3rem; */
+    margin-top: 2rem;
+}
+.edit-profile{
+    /* margin-left: 3rem; */
+    margin-top: 2rem;
+}
+.back_btn {
+    border: 1px solid #d9341a;
+    color: #d9341a;
+    font-weight: 600;
+    background-color: transparent;
+    padding: .5rem 2rem;
+    display: inline-block;
+    /* margin-left: 3rem; */
+    /* margin-top: 1rem; */
+
+}
+
+.my_account .personal-information{
+    
+    
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 800;
+    
+    
+}
+.my_account .personal-information hr{
+    
+    border-top: 1px solid #d9341a;
+
+}
+.my_account form input{
+    
+    border: 1px solid #d9341a;
+
+}
+.my_account form textarea{
+    
+    border: 1px solid #d9341a;
+
+}
+.my_account form .form-row{
+    margin-left: 3rem;
+}
+.my_account .address{
+   
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 800;
+    
+}
+.my_account .address hr{
+    
+    border: 1px solid #d9341a;
+
+}
+.my_account .save{
+    
+    border: 1px solid #d9341a;
+    width: 100%;
+    background: #d9341a;
+    color: #fff;
+    font-weight: 800;
+
+}
+/* ////////// my order page css ////////// */
+.order{
+    margin-left: 3rem;
+}
+.order .dispatched hr{
+    border-top: 2px solid #d9341a;
+
+}
+.order .dispatched .row{
+    margin-left: 3rem;
+
+
+}
+.order .dispatched img{
+    width: 120px;
+
+
+}
+.order .dispatched .details h5{
+    font-size: 1rem;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 3px;
+    
+}
+.order .dispatched .details p{
+    font-size: .7rem;
+    font-weight: 600;
+    
+}
+.order .dispatched .order_detail {
+    text-align: center;
+    width: 100%;
+    background: #d9341a;
+    align-self: center;
+    padding: .5rem 0rem;
+}
+.order .dispatched .order_detail a{
+    text-align: center;
+    width: 100%;
+    background: #d9341a;
+    color: white;
+}
+.order-detail{
+    margin-left: 3rem;
+}
+.order-detail .detail {
+    color:  #d9341a;
+    font-weight: 600;
+    margin-top: 2rem;
+
+}
+.order-detail .detail hr{
+    border-top: 2px solid #d9341a;
+
+}
+.order-detail .order_detailed {
+    margin-left: 3rem;
+
+}
+.order-detail .order_detailed .oder_id p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.order-detail .order_detailed .order_number p{
+    
+    font-size: 1rem;
+    
+
+}
+.order-detail .left_row {
+    margin-left: 3rem;
+
+}
+.order-detail .left_row img{
+    width: 150px;
+
+}
+.order-detail .left_row .detail h5{
+    color: black;
+
+}
+.order-detail .left_row .detail p{
+    font-size: 11px;
+    color: black;
+
+}
+.order-detail .left_row .oder_id p{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+
+}
+@media (max-width: 1024px){
+    .order .dispatched .row{
+        margin-left: 0rem;
+    
+    }
+}
+@media (max-width: 768px){
+    .my-detail{
+        margin-left: 1rem;
+    }
+    .edit-profile{
+        margin-left: 0rem;
+    }
+    .order .dispatched .row{
+        margin-left: 0rem;
+    
+    }
+    .my_account form .form-row{
+        margin-left: 0rem;
+    }
+    .order .dispatched img{
+        width: 100px;
+    
+    
+    }
+    .order .dispatched .details{
+        padding: 20px 0px; 
+    }
+    .order .dispatched .details h5{
+        font-size: .8rem;
+        margin-bottom: 2px;      
+    }
+    .order .dispatched .details p{
+        font-size: .7rem;
+        margin-bottom: 2px;      
+    }
+    .order-detail {
+        margin-left: 1rem;
+    }
+    .order-detail .order_detailed {
+        margin-left: 0rem;
+    }
+    .order-detail .left_row {
+        margin-left: 0rem;
+    }
+}
+@media (max-width: 458px){
+    .my_account .nav a{
+        margin: 0px;
+        font-size: 15px;
+        text-align: center;
+        
+        
+    }
+    .my-detail {
+        margin-left: 0rem;
+    }
+    .my_account form{
+    
+    
+        margin-left: 0rem;
+        
+        
+    }
+    .my_account form .form-row{
+        margin-left: 0rem;
+    }
+    .back_btn{
+        display: none;
+    }
+    .order .dispatched .order_detail {
+        margin-bottom: 10px;
+    }
+    .order {
+        margin-left: 0rem;
+    }
+    .left_row .quantity{
+        margin-top: 10px;
+        /* font-size: 20px; */
+    }
+}
+
+
+/****************************************/
+.btn-cutom
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b0882d;
+    background: #fdf1ef;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn-cutom:hover
+{
+    background: #b0882d;
+    transition:0.5s;
+    transition-delay:1s;
+    color: #fdf1ef;
+}
+
+.btn-cutom span
+{
+    position: absolute;
+    display: block;
+    background: #b0882d
+}
+
+.btn-cutom span:nth-child(1)
+{
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height:100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.25s;
+    
+}
+
+.btn-cutom:hover span:nth-child(1)
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.25s;
+    
+}
+
+.btn-cutom span:nth-child(2)
+{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.25s;
+    transition-delay: 0.25s;
+}
+
+.btn-cutom:hover span:nth-child(2)
+{
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.25s;
+    transition-delay: 0.25s;
+}
+
+.btn-cutom span:nth-child(3)
+{
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height:100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+}
+
+.btn-cutom:hover span:nth-child(3)
+{
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+}
+
+.btn-cutom span:nth-child(4)
+{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s;
+    transition-delay: 0.75s;
+}
+
+.btn-cutom:hover span:nth-child(4)
+{
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.25s;
+    transition-delay: 0.75s;
+}

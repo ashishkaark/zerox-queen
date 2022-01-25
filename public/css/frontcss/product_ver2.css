@@ -1,0 +1,1013 @@
+.carousel-inner .carousel-item {
+    padding: 30px;
+    text-align: center;
+}
+
+.slider_section {
+    margin-top: 0rem;
+}
+
+.card {
+    border: none;
+}
+
+.buy_product h4 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: black;
+    font-stretch: extra-condensed;
+}
+
+.buy_product p {
+    /* font-weight: 600; */
+    color: black;
+    font-stretch: extra-condensed;
+}
+
+.flavours img {
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 20px;
+    box-shadow: 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.flavours p {
+    margin-top: 5px;
+}
+
+.flavours img:hover,
+.flavours img:focus {
+    border: 1px solid red;
+    box-shadow: none;
+    transform: scale(1.1);
+}
+
+.buy_product .add_to_carts {
+    background-color: #d9341a;
+    padding: 1rem 1rem;
+    color: #fff;
+    width: 100%;
+    margin: 44px 0px;
+    display: block;
+    border: 2px solid #f9f9f9;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 10%);
+}
+
+
+.The_Gods_Ingredients .experience-bg {
+    /* display: inline-block; */
+    /* background-image: url("../../images/products/Bitmap5.png"); */
+    /* background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 80% center;
+    width: 100%; */
+}
+
+.Potential .card {
+    background: transparent;
+}
+
+#accordion button {
+    display: contents;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#accordion .card {
+    border: 1px solid #cec7c7;
+}
+
+#accordion .card-body p {
+    font-size: .8rem;
+}
+
+.higher_senses {
+    display: none;
+}
+
+.footer .Copyright {
+    background-color: black;
+    padding: 1rem;
+    color: goldenrod;
+    text-align: center;
+}
+
+.footer .Copyright h6 {
+    font-size: .8rem;
+}
+
+/* @media (min-width: 768px) and (max-width: 1800px) { */
+@media (min-width: 768px) {
+    .first-slide {
+        /* width: 100%; */
+        height: 100%;
+    }
+
+    .body_masajh {
+        display: none !important;
+    }
+
+    .higher_senses {
+        width: 100%;
+    }
+
+    .journey_paragraph {
+        font-family: Roboto;
+        /* font-size: 20px; */
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.55;
+        letter-spacing: 0.57px;
+        color: #4a4a4a;
+    }
+
+    .border_card_bottom {
+        border-bottom: 2px solid grey !important;
+        border-radius: 0px;
+    }
+
+    .show_desktop_view {
+        display: block;
+    }
+
+    .minus_btn img {
+        width: 20px;
+    }
+
+    .show_monble_view {
+        display: none;
+    }
+
+    .valuable_items {
+        width: 100%;
+        margin: 0px 8px;
+        height: 123px;
+        border-radius: 20px;
+        border: 3px solid black;
+        background-color: #f9f9f9;
+        padding: 11px 0px;
+        text-align: center;
+    }
+
+    .valuable_items .card-header {
+        height: 20px;
+        border: none;
+    }
+
+    .valuable_items .card-body {
+        padding: 5px;
+    }
+
+    .valuable_items .card-body p {
+        font-size: 15px;
+        font-weight: 700;
+        /* padding-top: 10px; */
+        color: #444444;
+    }
+
+    .valuable_items .card-body h4 {
+        font-size: .9rem;
+        padding-top: 10px;
+    }
+
+    .product_detail h5 {
+        display: none;
+    }
+
+    #rating-select {
+        padding: 10px 150px 10px 7px;
+        border: 2px solid grey;
+        margin: 0px 10px;
+    }
+
+    #desktop_view_value {
+        display: block;
+    }
+
+    #mobile_veiw_product_value {
+        display: none !important;
+    }
+
+    .bg_grey {
+        background-color: #F9F9F9;
+        padding: 55px 0px;
+    }
+
+    .card_detail {
+        background-color: #fff;
+        border: none;
+        border-top: 2px solid grey;
+    }
+
+    .card_detail .card-header {
+        background-color: #fff;
+        padding: 21px 44px;
+    }
+
+    #accordion .card-body p {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .collapse .card-body {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 20px 45px;
+        color: black;
+    }
+
+    .product_buy {
+        background-color: #EEEEEE;
+        margin-top: 60px;
+    }
+
+    .input-group {
+        background-color: white;
+        border: 2px solid grey;
+        width: 27% !important;
+    }
+
+    .fields {
+        justify-content: space-between;
+    }
+
+    .buy_product h4 {
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Lato', sans-serif;
+        color: black;
+    }
+
+    .buy_product p {
+        font-weight: 400;
+        color: black;
+        font-stretch: extra-condensed;
+    }
+
+    .buy_product .doller_price {
+        font-size: 22px !important;
+    }
+
+    .add_to_cart {
+        display: none;
+    }
+
+    .add_to_carts {
+        display: block;
+        background-color: #d9341a;
+        padding: 1rem 1rem;
+        color: #fff;
+        width: 100%;
+        margin: 44px 0px;
+        display: block;
+    }
+
+    .add_to_carts:hover {
+        color: #fff;
+    }
+
+    /* :increment :decrement  */
+    .quantity {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        background: white;
+        border: 2px solid grey;
+        margin-left: 39px;
+    }
+
+    #product-select {
+        border: 2px solid gray;
+        /* width: 65%; */
+        /* font-weight: 600; */
+        font-family: 'Lato', sans-serif;
+        height: 45px;
+        color: #686868;
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+
+    .quantity__minus,
+    .quantity__plus {
+        display: block;
+        width: 40px;
+        height: 33px;
+        font-size: 32px;
+        margin: 0;
+        /* background: white; */
+        text-decoration: none;
+        text-align: center;
+        line-height: 29px;
+    }
+
+    .quantity__minus:hover,
+    .quantity__plus:hover {
+        background: #575b71;
+        color: #fff;
+    }
+
+    .quantity__minus {
+        border-radius: 3px 0 0 3px;
+    }
+
+    .quantity__plus {
+        border-radius: 0 3px 3px 0;
+    }
+
+    .quantity__input {
+        width: 32px;
+        height: 19px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        /* border-top: 2px solid #dee0ee; */
+        /* border-bottom: 2px solid #dee0ee; */
+        font-size: 22px;
+        border: none;
+        /* border-left: 1px solid #dee0ee; */
+        /* border-right: 2px solid #dee0ee; */
+        background: #fff;
+        color: #8184a1;
+    }
+
+    .quantity__minus:link,
+    .quantity__plus:link {
+        color: #8184a1;
+    }
+
+    .quantity__minus:visited,
+    .quantity__plus:visited {
+        color: #fff;
+    }
+
+    .Delta-8-Gummies-Reviews-detail button {
+        background-color: black;
+        color: white;
+        padding: 1rem 4rem;
+    }
+
+    .Delta-8-Gummies-Reviews-detail button:hover {
+        color: white;
+    }
+
+    .star_reviews {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .star_reviews img {
+        width: 60%;
+    }
+
+    .star_reviews p {
+        font-size: 13px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+
+    .star_iconss {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Filter-Reviews h4 {
+        padding: 12px 0px;
+    }
+
+    .Potential .Potential_detail {
+        font-size: 18px;
+        /* font-weight: 600; */
+        color: black;
+        padding: 12px 0px;
+    }
+
+    .cb_one {
+        width: 70%;
+        height: 460px;
+    }
+
+    .cbi_padding {
+        padding: 70px 0px 0px 26px;
+    }
+
+    .Receptors_CB h1 {
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.4px;
+        color: #2ab9a3;
+    }
+    .Receptors_CB p {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+
+
+    .gods_indegredents_img {
+        padding-top: 110px;
+        height: 90%;
+        width: 100%;
+        margin-left: -140px;
+        /* text-align: left; */
+        /* position: absolute; */
+        /* left: -92px; */
+    }
+
+    .shall_feel {
+        color: #525467;
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    .experience .experience_detail h1 {
+        font-weight: 300;
+    }
+
+    .experience_text {
+        padding: 0px 32px;
+    }
+
+    .experience_text .subtitle{
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.84px;
+    }
+
+    .experience_text .title{
+        font-size: 48px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.12px;
+        color: rgba(74, 74, 74, 0.88);
+    }
+
+
+    .experience_detail .title{
+        font-family: Roboto;
+        font-size: 55px;
+        font-weight: 300;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        color: #000;
+    }
+
+    .experience_detail .desc{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+
+    .experience_detail .desc-bold{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+
+
+    .standards .title{
+        font-family: Roboto;
+        font-size: 55px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        color: #4a4a4a;
+    }
+
+    .standards .subtitle{
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.84px;
+        color: #000;
+    }
+
+    .standards .list{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.94;
+        letter-spacing: 0.53px;
+        color: #4a4a4a;
+    }
+
+    #desktop_show {
+        display: block;
+    }
+
+    .The_Gods_Ingredients .desc{
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+}
+
+@media (max-width: 480px) {
+    #header {
+        background: fff;
+    }
+
+    #desktop_show {
+        display: none !important;
+    }
+
+    .more-option {
+        background-color: #fff;
+    }
+
+    .buy_product p {
+        font-weight: 400;
+        color: black;
+        font-size: 18px;;
+        font-stretch: extra-condensed;
+    }
+
+    .experience_text {
+        padding: 0px 0px;
+    }
+
+    .experience_text .subtitle{
+        font-size: 28px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.84px;
+    }
+
+    .experience_text .title{
+        font-size: 40px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.12px;
+        color: rgba(74, 74, 74, 0.88);
+    }
+
+    .journey_paragraph {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.55;
+        letter-spacing: 0.57px;
+        color: #4a4a4a;
+    }
+
+    .experience .experience_detail h1 {
+        font-weight: 300;
+    }
+
+    
+
+    .experience_detail .title{
+        font-family: Roboto;
+        font-size: 55px;
+        font-weight: 300;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        color: #000;
+    }
+
+    .experience_detail .desc{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+
+    .experience_detail .desc-bold{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+
+    .The_Gods_Ingredients .desc {
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+
+    .The_Gods_Ingredients h1{
+        font-size: 48px;
+        font-weight: bold;
+        letter-spacing: 1.12px;
+    }
+
+    .The_Gods_Ingredients h3{
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 1.12px;
+    }
+
+    .standards .title{
+        font-family: Roboto;
+        font-size: 55px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        color: #4a4a4a;
+    }
+
+    .standards .subtitle{
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.84px;
+        color: #000;
+    }
+
+    .standards .list{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.94;
+        letter-spacing: 0.53px;
+        color: #4a4a4a;
+    }
+
+    .Receptors_CB h1 {
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.4px;
+        color: #2ab9a3;
+    }
+    .Receptors_CB p {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        color: #000;
+    }
+
+    .show_desktop_view {
+        display: none !important;
+    }
+
+    .fields_ratings #rating-select {
+        padding: 10px 33px 10px 3px;
+    }
+
+    .show_monble_view {
+        display: block !important;
+    }
+
+    .cb_one {
+        width: 50%;
+    }
+
+    .star_reviews p {
+        font-size: 13px;
+        font-weight: 600;
+        padding-top: 20px;
+        padding-left: 8px;
+    }
+
+    .star_reviews {
+        display: flex;
+    }
+
+    .Filter-Reviews h4 {
+        text-align: center;
+    }
+
+    .star_iconss {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .product_detail p .description {
+        color: black;
+        font-weight: 900;
+    }
+
+    .buy_product .price {
+        color: black;
+        font-weight: 700;
+    }
+
+    .back_queen_Pharaoh {
+        background-color: #F5F5F5;
+    }
+
+    .add_to_carts {
+        display: block;
+        background-color: #d9341a;
+        padding: 0.7rem 1rem;
+        color: #fff;
+        width: 80%;
+        margin: 14px 0px 38px 0px;
+        display: block;
+    }
+
+    .flavours img {
+        width: 90%;
+    }
+
+    .body_masajh {
+        /* display: block; */
+        display:none;
+    }
+
+    .buy_product h4 {
+        /* font-size: 1.2rem; */
+        font-size: 30px;
+    }
+
+    .buy_product .only_ca {
+        padding: 10px 0px 0px 0px;
+        color: black;
+    }
+
+    #desktop_view_value {
+        display: none !important;
+    }
+
+    #mobile_veiw_product_value {
+        display: block;
+    }
+
+    .higher_senses {
+        display: inline-block;
+    }
+
+    /* .buy_product h4 {
+        display: none;
+    } */
+    /* .buy_product .star {
+        display: none !important;
+    } */
+    /* .buy_product .price {
+        margin-top: 32px;
+    } */
+    .product-bg .carousel-item {
+        padding-top: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
+    .product_values .card img {
+        width: 80%;
+    }
+
+    #product-select {
+        border: 2px solid gray;
+        /* width: 65%; */
+        /* font-weight: 600; */
+        font-family: 'Lato', sans-serif;
+        height: 45px;
+        color: #686868;
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+
+    .fields .input-group {
+        border: 1px solid black;
+        width: 50%;
+        
+    }
+
+    .valuable_items {
+        width: 82px;
+        border: 1px solid black;
+        margin: 5px;
+        height: 108px;
+    }
+
+    .valuable_items .text-center img {
+        padding: 3px;
+    }
+
+    .valuable_items .card-header {
+        height: 80px;
+        border: none;
+    }
+
+    .valuable_items .card-body {
+        padding: 5px;
+    }
+
+    .valuable_items .card-body p {
+        font-size: 11px;
+        font-weight: 700;
+        padding-top: 10px;
+        color: #444444;
+    }
+
+    .valuable_items .card-body h4 {
+        font-size: .9rem;
+    }
+
+    /* .experience .experience_detail h1 {
+        font-size: 2rem;
+        color: black;
+        font-weight: 400;
+    } */
+
+    .The_Gods_Ingredients .experience-bg {
+        background-image: none;
+
+    }
+
+    .The_Gods_Ingredients_detail h1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .The_Gods_Ingredients_detail h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .The_Gods_Ingredients_detail h6 {
+        padding: 25px 0px;
+        color: black;
+        font-size: 16px;
+    }
+
+    .Potential .card {
+        border: none;
+        margin: 20px 0px;
+    }
+
+    .Potential .Potential_detail {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: black;
+        padding: 0.25rem;
+    }
+
+    .Delta-8-Gummies-Reviews-detail button {
+        background-color: black;
+        color: white;
+        padding: 1rem 4rem;
+        margin: 10px 0px;
+    }
+
+    .Delta-8-Gummies-Reviews-detail .Filter-Reviews .fields select {
+        padding: 1rem .5rem;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .Delta-8-Gummies-Reviews-detail .Filter-Reviews .card {
+        margin: 10px 0px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer .product-form-inline .form-control {
+        border: 1px solid #d9341a;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+
+    .footer .product-form-inline .arrow {
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    .footer .product-form-inline i {
+        color: #fff !important;
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .footer .footer-data h5 {
+        font-size: 1rem !important;
+        font-weight: 300;
+        margin: 10px;
+    }
+
+    .footer .footer-link {
+        text-align: center;
+    }
+
+    .footer .footer-link h4 {
+        font-weight: 300;
+    }
+
+    .footer .footer-link ul {
+        list-style: none;
+        padding: 0px;
+        color: white;
+    }
+
+    .footer .Copyright {
+        background-color: #d9341a;
+        padding: 1rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    #footer .SUBSCRIBE h5 {
+        text-align: center;
+    }
+
+    .add_to_cart {
+        background-color: #d9341a;
+        padding: 1rem 1rem;
+        color: #fff;
+        width: 50%;
+        display: block;
+    }
+
+    .add_to_cart:hover {
+        color: white;
+    }
+
+    .Endocannabinoid_System .End_title{
+        font-weight: 300;
+        font-size: 45px !important;
+    }
+    .remove-padding-mob{
+        padding: 0 !important;
+    }
+}
+
+.Endocannabinoid_System .End_lbl{
+    font-size: 48px;
+}
+
+.End_lbl2{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #2ab9a3;
+}
+
+.Endocannabinoid_System .End_title{
+    font-weight: 300;
+    font-size: 55px;
+}
+
+.End_desc{
+
+}

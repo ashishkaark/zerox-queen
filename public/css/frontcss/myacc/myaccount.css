@@ -1,0 +1,627 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#computer {
+    display: block;
+}
+
+#mobile {
+    display: none;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, .1);
+    width: 100%;
+}
+
+.modal-body .container .row .col-12 {
+    padding: 0 !important;
+}
+
+#hr {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+#ModalHr {
+    margin: 0 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .1) !important;
+}
+
+#mobile {
+    display: none;
+}
+
+
+/* .col-9 .row form{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.tab-content {
+    margin: 10px;
+}
+
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 0.25rem;
+}
+
+#Bx {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    width: 64%;
+}
+
+#pills-profile .imgBx {
+    text-align: center;
+}
+
+#pills-profile img {
+    width: 100px;
+}
+
+#pills-order .container {
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .15)!important;
+    margin-top: 10px;
+    height: auto;
+}
+
+#pills-order .container .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pills-order .container .row #pills-order .container .row .col-md-3 {
+    text-align: center;
+}
+
+#pills-order .container .row .col-2 img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#pills-order .container .row .col-3 button {
+    display: flex;
+    color: black;
+    flex-direction: column;
+}
+
+#pills-order .container .row .col-7 a {
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+#pills-order .container .row .col-12 .download {
+    border: none;
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#pills-order .container .row .col-12 .download:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.tracking {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: none !important;
+    font-weight: 700;
+    color: red !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+    width: 100%
+}
+
+.modal-open .modal {
+    display: flex !important;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.modal-dialog {
+    max-width: 53% !important;
+}
+
+.modal-body .row .col-md-3 {
+    align-items: center;
+}
+
+.modal-body .row .col-md-3 img {
+    margin: 10px 0px;
+    width: 50px;
+}
+
+.modal-body .row .col-md-3 .track {
+    text-align: center;
+}
+
+.modal-body .row .col-md-3 .track img {
+    width: 13px;
+}
+
+#pills-order .container .row .col-3 .btnBx {
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.modal-body .row .col-md-3 h6 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.modal-body .row .col-3 {
+    align-items: center;
+}
+
+.modal-body .row .col-3 img {
+    width: 20px;
+}
+
+.modal-footer .btn {
+    background-color: white;
+    color: black;
+}
+
+.modal-footer .btn:hover {
+    background-color: black;
+    color: white !important;
+}
+
+#option {
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.tab-pane .container #over {
+    height: 230px;
+}
+
+.tab-pane .container .row {
+    padding: 0;
+}
+
+.tab-pane .container .row .card-body {
+    margin: 10px;
+    background: rgb(127 135 148 / 8%);
+}
+
+.tab-pane .container .row .col-sm-12 {
+    align-items: center;
+    position: relative;
+}
+
+.tab-pane .container .row .col-sm-12 .col-1 {
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+
+.tab-pane .container .row .col-sm-12 .col-1 i {
+    float: right;
+}
+
+.tab-pane .container .row .col-sm-12 .col-3 i {
+    font-size: 150px;
+}
+
+.tab-pane .container .row .col-sm-12 .col-8 {
+    display: flex;
+    align-items: center;
+}
+
+.tab-pane .container .row .col-4 {
+    padding: 0 !important;
+    width: 100%;
+}
+
+.tab-pane .container .row .col-4 .card {
+    height: 210px;
+    margin: 10px;
+}
+
+.tab-pane .container .row .col-4 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tab-pane .container .row .card-Body {
+    display: flex;
+    width: 100%;
+}
+
+.tab-pane .container .row .col-4 .card i {
+    font-size: 60px;
+}
+
+.tab-pane .container .row .col-4 .btnBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(226 14 14);
+    margin: 10px;
+    height: 50px;
+    box-shadow: 0 .1rem 0.5rem rgba(1, 1, 1, 1)!important;
+    border: 1px solid white;
+}
+
+.tab-pane .container .row .card-Body .col-4 .btnBx .btn {
+    color: white !important;
+}
+
+#v-pills-order .container .row .col-12 {
+    display: flex;
+    align-items: center;
+}
+
+.tab-pane .container .row .col-12 hr {
+    border: 1px solid rgba(0, 0, 0, .1);
+    width: 100%;
+}
+
+#v-pills-order .container .row #order {
+    color: red;
+    justify-content: space-between;
+}
+
+#v-pills-order .container .row .col-12 .col-8 {
+    padding: 0;
+    font-weight: 500;
+}
+
+#v-pills-order .container .row .col-12 .col-4 .date {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+#v-pills-order .container .row .col-12 .col-6 {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#v-pills-order .container .row .col-12 .col-2 {
+    padding: 0;
+}
+
+#v-pills-order .container .row .col-12 .col-2 img {
+    height: 125px;
+    padding: 10px 5px;
+}
+
+#v-pills-order .container .row .col-12 .col-6 .content {
+    width: 100%;
+    padding: 20px 0;
+}
+
+#v-pills-order .container .row .col-12 .col-6 .content .boxBx {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+#v-pills-order .container .row .col-12 .col-4 #card {
+    width: 100%;
+    padding: 0;
+    display: block !important;
+}
+
+.cardbx {
+    display: flex;
+}
+
+#v-pills-order .container .row .col-12 .col-4 #card .cardbx .imgBx {
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+#v-pills-order .container .row .col-12 .card-body .col-2 {
+    text-align: center;
+}
+
+#v-pills-order .container .row .col-12 .col-2 {
+    text-align: center;
+}
+
+.adress {
+    font-size: 10px;
+}
+
+#ordername {
+    padding: 20px 0;
+    margin: 10px 0 !important;
+}
+
+#orderov {
+    padding: 0 !important;
+}
+
+.col-2 .rate p {
+    margin: 0 !important;
+}
+
+#v-pills-order .container .row .col-12 .card-body .col-6 .col-2 img {
+    width: 60px;
+}
+
+
+/* orderpage */
+
+#v-pills-order .container .row .col-12 .col-4 .btn {
+    width: 100%;
+    border: 2px solid red;
+    color: red;
+    text-align: left;
+}
+
+#v-pills-order .container .row .col-12 {
+    padding: 15px 0;
+}
+
+#v-pills-order .container .row .col-12 .col-4 {
+    display: flex;
+}
+
+
+/* Star Rating */
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 33px;
+    font-size: 33px;
+    color: rgb(127 135 148 / 50%);
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+
+/* ......... */
+
+#v-pills-Addresses .address-detail .address-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 700;
+    color: gray;
+}
+
+#v-pills-Addresses .address-detail .address-top .new-address {
+    padding: .5rem 2rem;
+    font-size: .8rem;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+}
+
+#v-pills-Addresses .address-detail .address-dis .card-header {
+    background-color: transparent;
+    border: none;
+}
+
+#v-pills-Addresses .address-detail .address-dis .card-body {
+    font-size: .8rem;
+}
+
+#v-pills-Addresses .address-detail .address-dis p {
+    font-size: .8rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: gray;
+    /* margin-bottom: 0px; */
+}
+
+#v-pills-reward .add-new-address {
+    text-align: right;
+}
+
+#v-pills-reward .add-new-address .add-new-address-btn {
+    border: 2px solid lightgray;
+    font-size: 14px;
+    border-radius: 0px;
+    font-weight: 500;
+    /* color: gray; */
+}
+
+#v-pills-reward .rewards-hi {
+    text-align: center;
+}
+
+#v-pills-reward .rewards-hi .title-hi {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#v-pills-reward .rewards-hi .dis {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#v-pills-reward .redeem .redeem-btn-1 {
+    padding: 1rem 5rem;
+    border: 1px solid red;
+    border-radius: 0px;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+}
+
+#v-pills-reward .redeem .redeem-btn-2 {
+    padding: 1rem 5rem;
+    border: 1px solid red;
+    border-radius: 0px;
+    font-size: 14px;
+    color: black;
+}
+
+#v-pills-refer .refer-title h5 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#v-pills-refer .refer-title p {
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+#v-pills-refer .friend-form input {
+    padding: 1.5rem 1rem;
+    font-size: .8rem;
+    line-height: 0.2;
+    border-radius: 0px;
+}
+
+#v-pills-refer .friend-form .next {
+    background-color: red;
+    color: white;
+}
+
+#v-pills-card .add-btn {
+    text-align: right;
+}
+
+#v-pills-card .add-btn .add {
+    font-size: 13px;
+    font-weight: 500;
+    padding: .5rem 4rem;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    color: gray;
+}
+
+#v-pills-card .card-detail {
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, .1);
+}
+
+#v-pills-card .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+#v-pills-card label {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+#v-pills-card .input-group-text {
+    background-color: transparent;
+    border-left: 0px;
+}
+
+#v-pills-card .credit {
+    border-right: 0px;
+}
+
+#v-pills-card .form-card input {
+    padding: 1.5rem 1rem;
+    font-size: .8rem;
+    line-height: 0.2;
+    border-radius: 0px;
+}
+
+#v-pills-card .form-card .input-remember {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscriptions-dis {
+    text-align: center;
+    align-self: center;
+    transform: translateY(50%);
+}
+
+.subscriptions-dis h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.subscriptions-dis h1 span {
+    font-weight: 700;
+}
+
+.subscriptions-dis h6 {
+    font-size: 1.4rem;
+}
+
+.subscriptions-dis .card {
+    padding: 4rem;
+    color: gray;
+    margin: 0px 38px;
+}
+
+@media only screen and (max-width: 600px) {
+    #mobile {
+        display: block !important;
+    }
+    #computer {
+        display: none;
+    }
+}

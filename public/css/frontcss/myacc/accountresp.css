@@ -1,0 +1,151 @@
+.container .row {
+    position: relative;
+}
+
+.container .row .black {
+    height: 150px;
+    background-color: black;
+    position: relative;
+}
+
+.container .row #white {
+    height: 100px;
+    position: relative;
+}
+
+hr {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    width: 100%;
+}
+
+#back {
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+}
+
+.container .row #profile {
+    position: absolute;
+    display: flex;
+    bottom: 4%;
+    height: 136px;
+}
+
+.container .row .col-12 #logo {
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .row .col-12 .col-4 i {
+    font-size: 83px;
+}
+
+.container .row .col-12 .col-8 {
+    display: flex;
+    align-items: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black !important;
+}
+
+#v-pills-home-tab {
+    color: red;
+}
+
+.container .row .col-12 .nav a {
+    background: none !important;
+    color: black;
+}
+
+.container .row .card-body {
+    padding: 0;
+}
+
+.container .row .card-body .col-12 {
+    padding: 0;
+}
+
+.card-body {
+    background: rgba(0, 0, 0, .1);
+}
+
+.card-Body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-Body .col-6 {
+    padding: 10px 15px;
+}
+
+.card-Body .col-6 .card {
+    height: 150px;
+    width: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-Body .col-6 .card .icon i {
+    font-size: 36px;
+}
+
+.card-Body .col-6 .card p {
+    font-size: 10px;
+}
+
+.container .row .col-12 a.previous.round {
+    color: black !important;
+    font-size: 15px;
+}
+
+.container .row .card-body .col-12 .col-3 {
+    font-size: 50px;
+}
+
+#logout {
+    height: 64px;
+}
+
+#logout .btnBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(226 14 14);
+    margin: 10px;
+    height: 50px;
+    box-shadow: 0 .1rem 0.5rem rgba(1, 1, 1, 1)!important;
+    border: 1px solid white;
+}
+
+#logout .btnBx .btn {
+    color: white;
+}
+
+
+/* resppage */
+
+.backbtn {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.backbtn a {
+    color: black;
+    text-decoration: none;
+    margin: 10px 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+}

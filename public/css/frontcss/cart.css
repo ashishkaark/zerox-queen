@@ -1,0 +1,118 @@
+.margin_register {
+    /* background-color: #D9341A; */
+    box-shadow: 2px 2px 15px #a8bba8;
+    margin: 7.9rem 5rem 3rem 5rem;
+    /* padding: 1rem 1rem; */
+}
+
+.back_btn {
+    border: 1px solid #D9341A;
+    color: #D9341A;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 10px 2rem;
+    margin-left: 63px;
+}
+
+hr {
+    border: 1px solid #D9341A;
+    opacity: 1;
+    background-color: #D9341A;
+}
+
+.card {
+    border: 2px solid #D9341A;
+}
+
+.left_vendor {
+    text-align: left;
+}
+
+.right_vendor {
+    text-align: right;
+}
+
+.back_btn .fas {
+    padding-right: 10px;
+    font-weight: 600;
+    color: #D9341A;
+}
+
+.account_det {
+    color: #D9341A;
+    font-size: 22px;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 5px 15px;
+    margin: 15px 0px;
+    font-size: 22px;
+    border: 2px solid #D9341A;
+}
+
+.place_order {
+    background-color: #D9341A;
+    border: 2px solid #D9341A;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 6rem;
+}
+
+.place_order:hover {
+    border: 2px solid #D9341A;
+    background-color: white;
+    color: #D9341A;
+}
+
+.form-group textarea {
+    width: 80%;
+    padding: 5px 15px;
+    border: 2px solid #D9341A;
+    margin: 15px 0px;
+    font-size: 22px;
+}
+
+p {
+    color: black;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.list-group-flush>.list-group-item {
+    border-width: 0px;
+}
+
+.color_para {
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .margin_register {
+        margin: 2rem 0rem;
+    }
+    .super_thanku {
+        width: 60%;
+        height: 100%;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 5px 15px;
+        margin: 15px 0px;
+        font-size: 22px;
+        border: 1px solid #D9341A;
+    }
+    .place_order {
+        padding: 0.5rem 1rem;
+    }
+    .form-group textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .place_order {
+        padding: 0.5rem 2rem;
+    }
+}

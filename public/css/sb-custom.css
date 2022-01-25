@@ -1,0 +1,330 @@
+/* .sb_btn
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1ea1c7;
+    color: #fff;
+    width: 215px;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 0px 2px 1px 2px #bde8f5;
+    margin-top: 20px;
+    transition: 1s;
+    transform: scale(0.9);
+    border: 0;
+    outline: none !important;
+}
+
+.sb_btn:hover
+{
+    transition:.5s;
+    box-shadow:none;
+    transform: scale(1.0);
+} */
+
+.audit_row
+{
+    padding: .5rem;
+    border: 1px solid #1ea1c7;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 12px;
+    margin-bottom: .25rem;
+    transform: scale(0.99);
+}
+
+.cron_row
+{
+    padding: 1rem;
+    border: 6px solid #177d9b;
+    border-radius: 2px;
+    transition: .5s;
+    margin-bottom: 1rem;
+    transform: scale(0.90);
+    transition-delay: .1s;;
+}
+
+.cron_row img{
+    transition: .7s;
+
+}
+
+.cron_row:hover img{
+    transform: rotateX(360deg);
+}
+.cron_row:hover{
+    transform: scale(0.93);
+    transition-delay: .2s;;
+
+}
+
+.audit_row:hover
+{
+    border: none;
+    box-shadow: 0px 1px 4px 2px #bde8f5;
+    transition: .5s;
+    transform: scale(1.0);
+}
+
+
+
+.audit_row .row1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.audit_row .row2
+{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 16px;
+    color: #1ea1c7;
+}
+
+.audit_row .row3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+.autocomplete-suggestions { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+
+/****************************************/
+.btn-cutom
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b0882d;
+    background: #fdf1ef;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn-cutom:hover
+{
+    background: #b0882d;
+    transition:0.5s;
+    transition-delay:1s;
+    color: #fdf1ef;
+}
+
+.btn-cutom span
+{
+    position: absolute;
+    display: block;
+    background: #b0882d
+}
+
+.btn-cutom span:nth-child(1)
+{
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height:100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.25s;
+    
+}
+
+.btn-cutom:hover span:nth-child(1)
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.25s;
+    
+}
+
+.btn-cutom span:nth-child(2)
+{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.25s;
+    transition-delay: 0.25s;
+}
+
+.btn-cutom:hover span:nth-child(2)
+{
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.25s;
+    transition-delay: 0.25s;
+}
+
+.btn-cutom span:nth-child(3)
+{
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height:100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+}
+
+.btn-cutom:hover span:nth-child(3)
+{
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+}
+
+.btn-cutom span:nth-child(4)
+{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s;
+    transition-delay: 0.75s;
+}
+
+.btn-cutom:hover span:nth-child(4)
+{
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.25s;
+    transition-delay: 0.75s;
+}
+
+
+/*************************************************************************/
+
+.custom-container
+{
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.custom-container .box
+{
+    position: relative;
+    width: 350px;
+    margin-top: 20px;;
+    background: #fff;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1) ;
+}
+
+.custom-container .box::before
+{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(
+        180deg
+        , #d9341a 0%, #b0882d 100%);
+    /* background: linear-gradient(0deg, #20c461 0%, #157f3f 100%); */
+    /* background:#d9341a; */
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.custom-container .box:hover:before
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.custom-container .box h2
+{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.custom-container .box:hover h2
+{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-40px);
+    
+}
+
+.custom-container .box .btngps
+{
+    list-style: none;
+    font-size:18px;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+    padding-left: 0px;
+    transition: 0.5s;
+}
+
+.custom-container .box h3
+{
+    position: relative;
+    font-size: 2em;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+
+.custom-container .box p
+{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+}
+
+.custom-container .box .btngps a{
+    color: #333;
+}
+.custom-container .box:hover h3,
+.custom-container .box:hover p,
+.custom-container .box:hover .btngps a
+{
+    color: #fff !important;
+}
+
+.custom-container .box:hover .btngps
+{
+    padding-left: 50px;
+    /* font-size:22px; */
+}
